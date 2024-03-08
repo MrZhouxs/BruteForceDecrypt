@@ -9,6 +9,7 @@ public class Application {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             System.out.println("未给出待破解的文件路径");
+            return;
         }
         String filepath = args[0];
         String password = null;
